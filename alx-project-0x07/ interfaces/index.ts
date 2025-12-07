@@ -1,5 +1,8 @@
-import * as React from "react"
+// interfaces/index.ts
 
-export interface ReactComponentProps {
-    children: React.ReactNode
+export interface Property {
+  id: number;
+  title: string;
+  description: string;
+  price: number;
 }
